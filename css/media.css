@@ -18,28 +18,47 @@
   }
   .title {
     font-size: 100px;
-  letter-spacing: -3px;
-
+    letter-spacing: -3px;
   }
-  .subtitle{
+  .subtitle {
     font-size: 18px;
   }
   .nav-link:focus,
   .nav-link:hover,
   .nav-link.my-border-edite,
   .nav-link.my-border-edite.active {
-      color: white;
-  }
-.my-border-edite{
     color: white;
-
-}
-  .unscrolled-white {
-      --white-unscrolled: rgb(0, 0, 0);
   }
-
-
-
+  .my-border-edite {
+    color: white;
+  }
+  .unscrolled-white {
+    --white-unscrolled: rgb(0, 0, 0);
+  }
+  .firts {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/Dr1.jpg); /* تغيير الألوان حسب الحاجة */
+    background-position: center;
+    background-size: cover;
+  }
+  .second {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/Dr2.jpg); /* تغيير الألوان حسب الحاجة */
+    background-position: center;
+    background-size: cover;
+  }
+  .third {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/Dr3.jpg); /* تغيير الألوان حسب الحاجة */
+    background-position: center;
+    background-size: cover;
+  }
+  .fourth {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/Dr4.jpg); /* تغيير الألوان حسب الحاجة */
+    background-position: center;
+    background-size: cover;
+  }
 }
 @media screen and (min-width: 1200px) {
   .carousel-control-prev {
